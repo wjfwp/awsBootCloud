@@ -86,8 +86,8 @@ public class CloudRestController {
 	public ResponseEntity<String> send_email() {
 
 		//이 데이터 화면에서 전달받을 수 있도록 처리.
-		String sender = "sis6710@gmail.com"; //발신자 주소
-		String recipient = "yuyu659@naver.com"; //수신자 주소
+		String sender = ""; //발신자 주소
+		String recipient = ""; //수신자 주소
 		String subject = "Amazon SES test (AWS SDK for Java)"; //제목
 		String HTMLBODY = "<h1>Amazon SES test (AWS SDK for Java)</h1>"
 			      + "<p>This email was sent with <a href='https://aws.amazon.com/ses/'>"
